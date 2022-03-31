@@ -318,31 +318,31 @@ button:active {
   padding: 35px 0px;
   margin: -120px auto 0px;
   color: #000000;
-  opacity: 0.5;
+  opacity: 0.8;
   background-color: #ffffff
 }
 .main-footer .container {
   display: flex;
   justify-content: space-between;
 }
-.footer-contacts p {
-  width: 320px;
-  margin: 0;
+.footer-contacts {
+  width: 250px;
+  margin: 0 120px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  text-align: center;
   color: #000000;
   text-transform: uppercase;
 }
 .footer-social {
-  width: 145px;
+  width: 200px;
+  height: 50px;
   text-align: center;
 }
 .footer-social ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 141px;
   margin: 0 auto;
   padding: 0;
