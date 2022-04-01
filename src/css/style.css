@@ -311,12 +311,16 @@ button:active {
 }
 
 .main-footer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   width: 1200px;
+  margin: 0 auto 0 auto;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: repeat(1, 120px);
+  /* display: flex;
+  justify-content: space-between;
   height: 45px;
   padding: 35px 0px;
-  margin: -120px auto 0px;
+  margin: -120px auto 0px; */
   color: #000000;
   opacity: 0.8;
   background-color: #ffffff
@@ -334,18 +338,25 @@ button:active {
   color: #000000;
   text-transform: uppercase;
 }
-.footer-social {
+/* .footer-social {
   width: 200px;
   height: 50px;
   text-align: center;
-}
-.footer-social ul {
-  display: flex;
+} */
+.footer-social {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: repeat(1, 120px);
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 141px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0; */
   list-style: none;
 }
 .social-button {
@@ -365,4 +376,18 @@ button:active {
 }
 .social-button:active path {
   fill: #88b6d1;
+}
+.footer-copyright {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: repeat(1, 120px);
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 0;
+  margin-left: auto; */
+  text-align: center;
 }
